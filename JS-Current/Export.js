@@ -1,5 +1,5 @@
-// import Numberschema from './🔄_temporary.js';
 /* eslint-disable */
+// import Numberschema from './Temporary.js';
 console.log(); //
 // // // // // //
 
