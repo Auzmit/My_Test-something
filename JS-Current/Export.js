@@ -1,17 +1,13 @@
 /* eslint-disable */
-import fs from 'fs';
+// import path from 'path';
+// import _ from 'lodash';
+// import fsp from 'fs/promises';
 // console.log(); //
 // // // // // //
 
-fs.readFile('./test.txt', 'utf8', function(err, data) {
-  if (err) {
-    console.log('ERROR!');
-  } else {
-    console.log();
-    console.log(data.toString().split('\r\n'));
-    console.log();
-  }
-})
+export default ['акула', 'арбуз', 'аркан', 'буква', 'бабка', 'ведро'];
+// export default { words: ['акула', 'арбуз', 'аркан', 'буква', 'бабка', 'ведро'] };
+// export default [1, 2, 3];
 
 // // // // // //
 // console.log(); //

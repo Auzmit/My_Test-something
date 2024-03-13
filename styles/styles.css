@@ -6,31 +6,58 @@ body {
     background-color: #eee;
 }
 
-/* BEGIN (write your solution here) */
-/*
-.form-input {
-  display: block;
-  width: 100%;
-}
-
-input {
+h1 {
+  display: flex;
   height: 50px;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  border: 1px solid #e2e2e2;
+  align-items: center;
+  justify-content: center;
+  
+  color: black;
+  background-color: aqua;
+  border-radius: 10px;
+  transition: 700ms;
 }
 
-textarea {
-  height: 200px;
-  resize: none;
+h1:hover {
+  background-color: black;
+  color: aqua;
 }
 
-.block * {
-  color: #fff;
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
 }
 
-.block > * {
-  color: #fff;
+td {
+  border: 1px solid aqua;
+  padding: 10px;
 }
 
-/* END */
+td {
+  color: aqua;
+  background-color: black;
+  transition: 400ms;
+}
+
+td:hover {
+  color: black;
+  background-color: aqua;
+}
+
+tr:hover {
+  padding-left: 100px;
+}
+
+.tr-last {
+  height: 50px;
+  width: 40px;
+  background-color: blueviolet;
+}
+
+.tr-last:hover {
+  color: blanchedalmond;
+  background-color: blue;
+}
